@@ -1,0 +1,22 @@
+Input "A=",A
+Input "B=",B
+Input "C=",C
+Disp ""
+
+B^2-4(A)(C)→D
+If D<0: Then
+Disp "NO SOLUTIONS"
+Stop
+End
+
+(-B+√(D))/(2*A)→M
+(-B-√(D))/(2*A)→M
+
+If D=0:Then
+Disp "DISCRIM: 0"
+Disp "SOL:"+toString(M)
+Stop
+End
+
+Disp "DISCRIM: "+toString(D)
+Disp "SOLS: "+toString(M)+" OR "+toString(N)
