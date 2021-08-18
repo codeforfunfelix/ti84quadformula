@@ -10,7 +10,7 @@ Stop
 End
 
 (-B+√(D))/(2*A)→M
-(-B-√(D))/(2*A)→M
+(-B-√(D))/(2*A)→N
 
 If D=0:Then
 Disp "DISCRIM: 0"
